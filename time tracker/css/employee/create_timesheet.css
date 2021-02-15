@@ -1,0 +1,151 @@
+/*colors
+
+blue - #168fd9
+grey - #e8e8e8
+thick grey - #9fa0a1
+
+*/
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+    font-family: 'Montserrat', sans-serif;
+}
+
+.content{
+	width: 100%;
+}
+
+/*======
+title
+======*/
+
+.title{
+	text-align: center;
+	padding: 20px;
+	text-transform: uppercase;
+	background-color:#f5f5f5;
+    color: #2d2d2e;
+}
+
+/*======
+wrapper
+======*/
+
+.wrapper{
+	width: 100%;
+	padding: 30px;
+}
+
+/*======
+sidebar
+======*/
+
+.sidebar {
+    width: 20%;
+}
+
+.sidebar h1{
+    padding: 20px;
+    background-color: #168fd9;
+    color: whitesmoke;
+    text-align: center;
+    box-shadow: 4px 4px 4px #e8e8e8;
+    border-radius: 10px;
+}
+
+.sidebar h1 a{
+    color: blanchedalmond;
+}
+
+.sidebar a h3{
+    padding: 15px;
+    font-size: 25px;
+    border: 1px solid #e8e8e8;
+    box-shadow: 2px 2px 1px #e8e8e8;
+    border-radius: 10px;
+    
+}
+
+.sidebar a h3:active{
+    border-bottom: 3px solid #4579cc;
+}
+
+.sidebar a h3:hover{
+    border-bottom: 3px solid #4579cc ;
+}
+
+.sidebar a{
+    color: #0a0d17;
+}
+
+/*=======
+main
+=======*/
+
+.main{
+    width: 73%;
+    height: 83%;
+    position: absolute;
+    left: 25%;
+    top: 16%;
+    border: 1px solid #e6e6e6;
+    border-radius: 10px;
+    box-shadow: 0 0 5px 0.1px black;
+    padding: 20px;
+}
+
+.main-content{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    background-color: #e6e6e6;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 2px 2px 4px black;
+}
+
+.main-content h3{
+    text-align: center;
+}
+
+.main-content input{
+    padding: 8px;
+    border: none;
+    outline: none;
+}
+
+.main-content input:focus{
+    border: 1px solid #3273a8;
+}
+
+.main table,tr,td{
+    padding: 10px;
+}
+
+.main label{
+    color: black;
+}
+
+/*=============
+create button
+=============*/
+
+.main-content #create{
+    float: right;
+    padding: 10px;
+    cursor: pointer;
+    outline: none;
+    border: none;
+    background: #168fd9;
+    color: #ffffff;
+    border-radius: 10px;
+}
+
+.main-content #create:hover{
+    box-shadow: 1px 1px 2px black;
+
+}

@@ -1,0 +1,99 @@
+/*colors
+
+blue - #168fd9
+grey - #e8e8e8
+thick grey - #9fa0a1
+
+*/
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+    font-family: 'Montserrat', sans-serif;
+}
+
+.content{
+	width: 100%;
+}
+
+/*======
+title
+======*/
+
+.title{
+	text-align: center;
+	padding: 20px;
+	text-transform: uppercase;
+	background-color:#f5f5f5;
+    color: #2d2d2e;
+}
+
+/*======
+body
+======*/
+
+.context{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    border: 1px solid #a2a2a3;
+    padding: 20px;
+    background-color: #e8e8e8;
+    border-radius: 10px;
+    box-shadow: 4px 4px 8px #e8e8e8;
+
+}
+
+
+
+#head{
+	font-size: 25px;
+	text-align: center;
+	padding: 10px;
+	text-transform: uppercase;
+}
+/*======
+form
+======*/
+
+.login td{
+	padding: 10px;
+}
+
+.login label{
+	font-size: 20px;
+}
+
+.login input{
+	padding: 5px;
+	outline: none;
+	border: none;
+}
+
+.login input:focus{
+	border: 1px solid #168fd9;
+}
+
+/*=========
+form-button
+===========*/
+
+#btn{
+	width: 100%;
+	margin-top: 10px;
+	padding: 10px;
+	font-size: 15px;
+	outline: none;
+	border: none;
+	border-radius: 10px;
+	background-color: #168fd9;
+	cursor: pointer;
+	color: #fff;
+}
+
+#btn:hover{
+	opacity: 0.8;
+}
